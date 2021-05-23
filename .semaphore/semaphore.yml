@@ -81,4 +81,5 @@ blocks:
           - chmod +x ./bin/webServer
           - ./bin/webServer 8001 &
           - curl --silent localhost:8001/time | grep "The current time is"
+          - lscpu
 
